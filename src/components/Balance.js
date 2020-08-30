@@ -208,6 +208,7 @@ class Balance extends Component {
 }
 
 function mapStateToProps(state) {
+  
   const balancesLoading = balancesLoadingSelector(state)
 
   return {
