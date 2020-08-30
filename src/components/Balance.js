@@ -71,10 +71,7 @@ const showForm = (props) => {
 
         <form className="row" onSubmit={(event) => {
           event.preventDefault();
-          (etherDepositAmount >= 1) ?
           depositEther(dispatch, exchange, web3, etherDepositAmount, account)
-          :
-          alert('Please deposit an amount greater than 1 ETH')
         }}>
           <div className="col-12 col-sm pr-sm-2">
             <input
