@@ -25,11 +25,11 @@ import {
 import Token from '../abis/Token.json'
 import Exchange from '../abis/Exchange.json'
 import { ETHER_ADDRESS } from '../helpers'
-
+import HDWallerProvider from 'truffle-hdwallet-provider-privkey'
 
 export const loadWeb3 = (dispatch) => {
   
-  const web3 = new Web3(Web3.givenProvider || new Web3.providers.HttpProvider('https://kovan.infura.io/v3/d7a441e2ec344fd7a736597604765836'))
+  const web3 = new Web3(Web3.givenProvider || 'https://kovan.infura.io/v3/d7a441e2ec344fd7a736597604765836')
   dispatch(web3Loaded(web3))
   return web3
 }
