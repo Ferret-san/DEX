@@ -1,7 +1,10 @@
 ## _**DEX - Decentralized Token Exchange**_
 ![Dex-Demo](Dex.gif)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Check it out!
+IMPORTANT NOTE: The Dyno might need to wake up for the content to be served. You will also need the Meta Mask chrome extension, switch to the Kovan network, and get some testnet ETH over at: https://gitter.im/kovan-testnet/faucet
+
+Live Dex: https://dex-token-exchange.herokuapp.com/
 
 ## Available Scripts
 
